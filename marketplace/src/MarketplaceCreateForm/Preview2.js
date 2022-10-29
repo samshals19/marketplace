@@ -1,6 +1,6 @@
 import React from "react";
 
-function OtherInfo() {
+export default function Preview2() {
   return (
     <>
       <div className="contain_form">
@@ -39,34 +39,6 @@ function OtherInfo() {
               </div>
             </div>
           </div>
-          <div className="waveimg_newinn fl-left">
-            <div className="wavecontent bg_dash_wave_newimg">
-              <img src="/img/rectimg1.png" alt="" />
-            </div>
-            <div className="wavecontent bg_dash_wave_newimg">
-              <img src="/img/rectimg2.png" alt="" />
-            </div>
-            <div className="wavecontent bg_dash_wave_newimg">
-              <img src="/img/rectimg3.png" alt="" />
-            </div>
-            <div className="wavecontent bg_dash_wave_newimg">
-              <img src="/img/rectimg4.png" alt="" />
-            </div>
-            <div className="wavecontent bg_dash_wave_newimg">
-              <img src="/img/rectimg5.png" alt="" />
-            </div>
-            <div className="wavecontent bg_dash_wave_newimg">
-              <img src="/img/rectimg6.png" alt="" />
-            </div>
-            <div className="wavecontent bg_dash_wave_newimg">
-              <img src="/img/rectimg7.png" alt="" />
-            </div>
-            <div className="wavecontent bg_dash_wave" id="wavecont">
-              <img src="/img/imgwave.png" alt="" />
-            </div>
-          </div>
-
-          <div className="clear"></div>
 
           <div className="block_section_4_form clear">
             <div className="section_set_1">
@@ -106,6 +78,13 @@ function OtherInfo() {
               <div className="Locker_mid_inner_section_4_a">NFT Details</div>
             </div>
 
+            <div className="clear hr_inner">
+              <hr />
+            </div>
+            <div className="section_set_1">
+              <div className="inner_section_4_a fl-left">Number Of Copies</div>
+              <div className="inner_section_4_b fl-right">505</div>
+            </div>
             <div className="clear hr_inner">
               <hr />
             </div>
@@ -151,5 +130,3 @@ function OtherInfo() {
     </>
   );
 }
-
-export default OtherInfo;

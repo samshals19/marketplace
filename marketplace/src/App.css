@@ -557,7 +557,7 @@ color: #464754;
 }
 
 .contain_block_1.fl-left
-{width: 56%;
+{width: 100%;
 }
 
 .img_top_right_title_block_1{
@@ -582,15 +582,93 @@ color: #464754;
   float:none;
   display: inline-block;
 }
-.img_bottom_right_title_block_1 span{  background: #F5F1EB;
-  padding: 0 10px;
-  display: inline-block;
-  color: #807373;
-  font-size: 11px;
-  border-radius: 4px;
-  font-weight: normal;margin-right:2px;
-  font-size: 10px;
-  line-height: 16px;
+.img_bottom_right_title_block_1 span{  
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+
+
+letter-spacing: 0.02em;
+
+/* Light/Text/Semi */
+
+color: #807373;
+}
+.img_bottom_right_title_block_1.top_back{
+  width: 80%;
+}
+.chosetypeimg img{
+  width: 40px;
+}
+#previewlogo img{
+  width: 120px;
+}
+.chosetypecontent p{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+letter-spacing: 0.02em;
+color: #464754;
+}
+.chosetypecontent span{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+letter-spacing: 0.02em;
+color: #A69F9F;
+}
+.chosetypenftcontent{
+  width: 54%;
+  margin-left: 5%;
+}
+.chosetypecontent {
+  line-height: 15px;
+    margin-top: 1.5%;
+    margin-left: 2%;
+}
+.signmarbtm5{
+  margin-bottom: 5%;
+}
+#chosenftpy{
+  background-color: #023c21;
+}
+.chosenfttypeimg1 img{
+  width: 74px;
+}
+.chosenfttypeimg2 img{
+  width: 77px;
+}
+.chosenfttypeimg3 img{
+  width: 91px;
+}
+.chosetypenftcontent p{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+letter-spacing: 0.02em;
+
+
+color: #807373;
+}
+.fl-left.chosetypenftcontent span{ 
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+
+
+letter-spacing: 0.02em;
+
+/* Light/Text/Dimmed */
+
+color: #A69F9F;
+}
+.L_app4_right_title_block_1.air_app4.fl-left{
+  width: 72%;
 }
 
 .block_section_1{
@@ -639,8 +717,17 @@ font-weight: 700;
 font-size: 14px;
 text-align: right;
 letter-spacing: 0.02em;
-text-transform: uppercase;
+/* text-transform: uppercase; */
 color: #464754;
+}
+#vertagimg img{
+  width: 14px;
+ 
+}
+#logoimg img{
+  width: 20px;
+  margin-right: 5px;
+  margin-top: -1px;
 }
 .inner_section_4_b span{
   font-weight: 500;

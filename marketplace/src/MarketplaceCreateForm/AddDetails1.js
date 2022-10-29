@@ -24,195 +24,86 @@ export default function AddDetails1() {
                 Upload NFT file <span>*</span>{" "}
               </p>
             </div>
-          </div>
+            <div className="clear"></div>
+            <div className="chaintype">
+              <div className="chosetypeimg fl-left">
+                <img src="/img/chosetypeimg.png" alt="" />
+              </div>
+              <div className="chosetypecontent fl-left">
+                <p>Binance Chain</p>
+                <span>Est. gas fee ~ $40</span>
+              </div>
 
-          <div class="imgarea_top_rightform_block_1 bg_dash clear">
-            <div className="img_name_section1 ">
-              {/* <img src="/img/BG.png" alt="" /> */}
-            </div>
-            <div className="img_name_section2_newupdate">
-              JPG,PNG,GIF,MP3 OR MP4 <br />{" "}
-              <span className="blackfile">MAX 100MB</span>
-            </div>
-            <div
-              className="img_name_section3_newupdate  fl-right"
-              id="filesupload"
-            >
-              {" "}
-              <img src="/img/export.png" alt="" /> Upload File
-            </div>
-          </div>
-          <div className="waveimg_newinn fl-left">
-            <div className="wavecontent bg_dash_wave_newimg">
-              <img src="/img/rectimg1.png" alt="" />
-            </div>
-            <div className="wavecontent bg_dash_wave_newimg">
-              <img src="/img/rectimg2.png" alt="" />
-            </div>
-            <div className="wavecontent bg_dash_wave_newimg">
-              <img src="/img/rectimg3.png" alt="" />
-            </div>
-            <div className="wavecontent bg_dash_wave_newimg">
-              <img src="/img/rectimg4.png" alt="" />
-            </div>
-            <div className="wavecontent bg_dash_wave_newimg">
-              <img src="/img/rectimg5.png" alt="" />
-            </div>
-            <div className="wavecontent bg_dash_wave_newimg">
-              <img src="/img/rectimg6.png" alt="" />
-            </div>
-            <div className="wavecontent bg_dash_wave_newimg">
-              <img src="/img/rectimg7.png" alt="" />
-            </div>
-            <div className="wavecontent bg_dash_wave" id="wavecont">
-              <img src="/img/imgwave.png" alt="" />
-            </div>
-          </div>
+              {/* <div className="fl-right downarrow">
+                <p class="sh">This is a paragraph.</p>
 
-          <div className="clear"></div>
-
-          <div className="formfillarea royalitycontentmain fl-left">
-            <p>Name</p>
-            <div class="royalitycontentinner clear">
-              <input
-                type="text"
-                // placeholder="Describe about your project"
-
-                placeholder="E.g. 10%"
-                name="website"
-                id="formfillbackchg"
-              />
+                <button class="downdrop">
+                  Toggle between hide() and show()
+                </button>
+              </div> */}
             </div>
-            <div class="royalitycontentmain  form_mb_2 form_app6 fl-left">
-              <p>Properties</p>
-
-              <div class="properties clear">
-                <input
-                  type="text"
-                  className="fl-left"
-                  class="newinputNFT"
-                  // placeholder="Describe about your project"
-
-                  placeholder="E.g. Size"
-                  name="website"
-                  value="Generation"
-                  id="formfillbackchg"
-                />
-
-                <input
-                  type="text"
-                  className="fl-right"
-                  class="newinputNFT"
-                  // placeholder="Describe about your project"
-
-                  placeholder="E.g. Large"
-                  name="website"
-                  value="Genesis"
-                  id="formfillbackchg"
-                />
-
-                <input
-                  type="text"
-                  className="fl-left"
-                  class="newinputNFT"
-                  // placeholder="Describe about your project"
-
-                  placeholder="E.g. Size"
-                  name="website"
-                  value="Series"
-                  id="formfillbackchg"
-                />
-
-                <input
-                  type="text"
-                  className="fl-right"
-                  class="newinputNFT"
-                  // placeholder="Describe about your project"
-
-                  placeholder="E.g. Large"
-                  name="website"
-                  value="SeriesOne"
-                  id="formfillbackchg"
-                />
+            <div className="clear"></div>
+            <div class="Airdropinfo_right_title_block_1 form_app6 fl-left">
+              <p>
+                Choose NFT Type <span>*</span>{" "}
+              </p>
+            </div>
+            <div className="chosenfttype " id="chosenftpy">
+              <div className="chosenfttypeimg1 fl-left">
+                <img src="/img/Muti3.png" alt="" />
+              </div>
+              <div className="fl-left chosetypenftcontent">
+                <p>Single Edition</p>
+                <span>
+                  Choose if you’re willing to create a one of one item.{" "}
+                </span>
+              </div>
+              <div className="fl-right">
+                <div class="radio-item">
+                  <input type="radio" id="ritema" name="ritem" value="ropt2" />
+                  <label for="ritema" class="new"></label>
+                </div>
               </div>
             </div>
-          </div>
-
-          {/* content3 */}
-          <div class="Airdropinfo_right_title_block_1 form_mb_2 form_app6 fl-left">
-            <p>Description</p>
-
-            <div class="inputvaluearea_top_rightform_block_1 clear">
-              <textarea
-                name=""
-                placeholder="Write something abouth the NFT"
-                id=""
-                cols="30"
-                rows="3"
-                value="The Original Defense Robot Prototype developed by the
-                International Space Security Administration. "
-              ></textarea>
-            </div>
-          </div>
-          {/* content4 */}
-          <div class="Airdropinfo_right_title_block_1 w_50per form_mb_2 form_app6 fl-left">
-            <p>
-              Choose Collection <span>*</span>{" "}
-            </p>
-          </div>
-          <div className="choosecollectptag  fl-right">
-            <p>
-              {" "}
-              <img src="/img/addcircle.png" alt="" /> Create New{" "}
-            </p>
-          </div>
-          <div className="clear"></div>
-          <div>
-            <div class="radio-item">
-              <input type="radio" id="ritema" name="ritem" value="ropt1" />
-              <label for="ritema">
-                <div className="choosecollect">
-                  <img src="/img/Ellipse.png" alt="" />
-                  <div className="choosecollect2 fl-right">
-                    <p>
-                      Okay Bears <img src="/img/VerifiedTag.png" alt="" />
-                    </p>
-                    <span>10,000 Items</span>
-                  </div>
+            <div className="clear signmarbtm5"></div>
+            <div className="chosenfttype " id="chosenftpy">
+              <div className="chosenfttypeimg2 fl-left">
+                <img src="/img/Muti1.png" alt="" />
+              </div>
+              <div className="fl-left chosetypenftcontent">
+                <p>Multiple Edition</p>
+                <span>
+                  Create a limited copies of an item to be shared among many
+                  users.
+                </span>
+              </div>
+              <div className="fl-right">
+                <div class="radio-item">
+                  <input type="radio" id="ritemb" name="ritem" value="ropt2" />
+                  <label for="ritemb" class="new"></label>
                 </div>
-              </label>
+              </div>
             </div>
-
-            <div class="radio-item">
-              <input type="radio" id="ritemb" name="ritem" value="ropt2" />
-              <label for="ritemb" class="new">
-                <div className="choosecollect">
-                  <img src="/img/Ellipse2.png" alt="" />
-                  <div className="choosecollect2 fl-right">
-                    <p>
-                      Cubex <img src="/img/VerifiedTag.png" alt="" />
-                    </p>
-                    <span>2,414Items</span>
-                  </div>
+            <div className="clear signmarbtm5"></div>
+            <div className="chosenfttype " id="chosenftpy">
+              <div className="chosenfttypeimg3 fl-left">
+                <img src="/img/Muti2.png" alt="" />
+              </div>
+              <div className="fl-left chosetypenftcontent">
+                <p>Multiples</p>
+                <span>
+                  Create one of one of an item by just uploading a zip file
+                  containing the item and its metadata.
+                </span>
+              </div>
+              <div className="fl-right">
+                <div class="radio-item">
+                  <input type="radio" id="ritemc" name="ritem" value="ropt2" />
+                  <label for="ritemc" class="new"></label>
                 </div>
-              </label>
+              </div>
             </div>
-          </div>
-          <div class="royalitycontentmain  form_mb_2 form_app6 fl-left">
-            <p>
-              Royalties <span>*</span>{" "}
-            </p>
-
-            <div class="royalitycontentinner clear">
-              <input
-                type="text"
-                // placeholder="Describe about your project"
-
-                placeholder="E.g. 10%"
-                name="website"
-              />
-              <img src="/img/perroy.png" alt="" />
-            </div>
+            <div className="clear signmarbtm5"></div>
           </div>
         </div>
       </div>
