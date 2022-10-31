@@ -54,19 +54,37 @@
     />
     <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
     <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
   <body class="mainly">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
 
-    <!-- <script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
       $(document).ready(function () {
-        $(".sh").click(function () {
-          $(".downdrop").toggle();
+        $(".downdrop").click(function () {
+          $("p").hide();
         });
       });
-    </script> -->
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $(".downdrop1").click(function () {
+          $("p").show();
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $(".downarrow").on("click", function () {
+          $(".inner_form_seting .label").removeClass("lappadpoolactive");
+          $(this).addClass("lappadpoolactive");
+        });
+      });
+    </script>
 
     <script>
       $(document).ready(function () {

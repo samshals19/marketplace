@@ -113,15 +113,36 @@ body.dark{
     position: relative;
 }
 .slider .image-text img{
-    width: 39px;
-    height: 38.22px;
+    width: 150px;
+    height: 40.22px;
     border-radius: 6px;
 }
 
 .slider .text img{
-    width: 142.38px;
-    height: 30.25px;
+    width: 100px;
+    height: 22.25px;
     border-radius: 6px;
+    margin-top: -19%;
+    margin-left: 3%;
+}
+.image-text p{
+    position: absolute;
+    top: 47%;
+    left: 19%;
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 12.6101px;
+
+
+
+
+
+letter-spacing: 0.02em;
+
+/* Light/Text/Semi */
+
+color: #807373;
 }
 
 .slider header .image-text{
@@ -405,7 +426,7 @@ padding-left:0px;}
                 /* margin-right: 6%; */
                 /* margin-top: 38px; */
                 width: 110%;
-                margin-right: -5%;
+                /* margin-right: -5%; */
                 background-color: white;
                 padding: 12px;
                 margin-bottom: 7%;

@@ -595,14 +595,18 @@ letter-spacing: 0.02em;
 
 color: #807373;
 }
-.img_bottom_right_title_block_1.top_back{
+/* .img_bottom_right_title_block_1.top_back{
   width: 80%;
-}
+} */
 .chosetypeimg img{
   width: 40px;
 }
+#previewlogo {
+  width: 23%;
+  margin: 0% 1%;
+}
 #previewlogo img{
-  width: 120px;
+  width: 100%;
 }
 .chosetypecontent p{
   font-family: 'Gilroy';
@@ -633,7 +637,10 @@ color: #A69F9F;
   margin-bottom: 5%;
 }
 #chosenftpy{
-  background-color: #023c21;
+  background: #F2F3F5;
+  opacity: 0.8;
+  border-radius: 12px;
+  padding: 17px;
 }
 .chosenfttypeimg1 img{
   width: 74px;
@@ -2396,7 +2403,7 @@ margin-top: 3%;
     display: block;
 }
 .waveimg_newinn img{
-  width: 100px;
+  width: 100%;
     margin: 0 auto;
     display: block;
 }
@@ -2513,7 +2520,7 @@ color: #807373;
   float: left;
   background: #FAF8F5;
 border-radius: 10px;
-margin-left: 23%;
+margin-left: 20%;
 width: 50%;
 padding: 3px;
 }
@@ -2596,6 +2603,15 @@ letter-spacing: 0.02em;
 
 color: #464754;
 }
+.leftmobileversho img {
+  display: none;
+}
+.mobileversshow a {
+  display: none;
+}
+/* .mobileversshow  img{
+  display: none;
+} */
 
 
 .userprobuttopn button{
@@ -2681,9 +2697,9 @@ color: #FFFFFF;
 .new:before{
     border:1px solid red;
 }
-.radio-item input[type=radio]:checked + .new:after{
+/* .radio-item input[type=radio]:checked + .new:after{
      border:1px solid pink;
-}
+} */
 
 
 .radio-item input[type='radio'] {
@@ -2710,7 +2726,73 @@ color: #FFFFFF;
   background-color: transparent;
   right: 10px;
 }
+.droicon img{
+  border: none;
+  width: 30px;
+}
+.droicon button{
+  border: none;
+  
+}
 
+.chaintype {
+  margin-bottom: 10px;
+}
+.hidtaghere{
+  margin-top: 20px;
+}
+/* #radio_item label:after {
+  content: " ";
+  display: inline-block;
+  position: absolute;
+  top: 25px;
+  margin: 0 5px 0 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 11px;
+  border:  1.5px solid #00783F;
+  background-color: transparent;
+  right: 10px;
+} */
+
+#radio_item input[type=radio]:checked + label:after {
+  border-radius: 11px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 29px;
+  right: 19px;
+  content: " ";
+  display: block;
+  background: #00783F;
+  
+}
+
+#radio_ite label:before {
+  content: " ";
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  margin: 0 5px 0 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 11px;
+  border: 1.5px solid rgba(166, 159, 159, 0.5);
+  background-color: transparent;
+  right: 10px;
+}
+#radio_ite input[type=radio]:checked + label:after {
+  border-radius: 11px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 12px;
+  right: 19px;
+  content: " ";
+  display: block;
+  background: #C89211;
+  
+}
 .radio-item input[type=radio]:checked + label:after {
   border-radius: 11px;
     width: 12px;
@@ -3419,6 +3501,15 @@ transition: transform .3s;
     width: 88%;
     transition: .5s; */
 }
+.mainly .form-block::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  background: #fff;
+  height: 74px;
+  z-index: -1;
+}
 .main .sidebar_contain_aside{display:none}
 .mainly{
     transition: .5s;
@@ -3876,12 +3967,18 @@ input:checked + .slider:before {
 
 
 /*  */
+/* -----------------------------------------------------------------------------1200px---------- */
+
 
 @media only screen and (min-width:980px) and (max-width:1200px){
   .page1_section_form_part1.fl-left input {
     
     width: 79%;
     
+}
+.topnav input[type=text] {
+  
+  width: 87%;
 }
 .page1_section_form_part2.fl-right {
   
@@ -3913,6 +4010,7 @@ input:checked + .slider:before {
   }
   
   
+/* -----------------------------------------------------------------------------979x---------- */
   
   @media only screen and (min-width:768px) and (max-width:979px){
     .page1_section_form_part1.fl-left input {
@@ -3920,6 +4018,22 @@ input:checked + .slider:before {
       width: 79%;
       
   }
+  .topnav input[type=text] {
+    padding: 6px;
+    
+    font-size: 13px;
+    
+    width: 83%;
+}
+.topnav .search-container {
+ 
+  margin-left: 7%;
+  width: 48%;
+  padding: 3px;
+}
+  .L_app4_right_title_block_1.air_app4.fl-left {
+    width: 65%;
+}
   /* .page1_section_form_part2.fl-right {
   
     padding-top: 14px !important;
@@ -4052,8 +4166,80 @@ input:checked + .slider:before {
   }
   
 
-/* ---------------------- */
+/* -----------------------------------------------------------------------------767px---------- */
 @media  only screen and (max-width: 767px) {
+  
+  
+  
+  .top-right-nav {
+  float: right;
+  margin: 0 0 20px 0;
+  width: 100%;
+  background-color: white;
+  padding: 12px 0px 5px 0px;
+}
+.topnav .search-container {
+  float: left;
+  background: #FAF8F5;
+  border-radius: 10px;
+  margin-left: 29%;
+  width: 45px;
+  padding: 1px;
+}
+.topnav input[type=text]{display: none;}
+.search-container img {
+  float: left;
+  margin: 11px 10px 10px 10px;
+}
+
+.leftmobileversho img{
+  width:40px;
+}
+
+.leftmobileversho{
+  width:40px;float:right
+}
+
+.mainly .form-block::before {
+  height: 68px;
+
+}
+#resmenushow {
+  display: block;
+  background: none;
+  padding: 0;
+  margin-left: 0;
+  float: left;
+  margin-right: 3px;
+  margin-bottom: 0px;
+}
+#resmenushow img{
+  width: 40px;
+}
+#headerlogo {
+  display: block;
+    float: left;
+    padding: 0;
+    background: none !important;
+    width: 100px;
+    margin-right: 0px;
+}
+#headerlogo img{
+  width: 140px;
+}
+
+
+
+
+
+
+
+
+
+  .L_app4_right_title_block_1.air_app4.fl-left {
+    width: 67%;
+}
+
   .Airdropinfo_right_title_block_1{
     width: 100%;
   }
@@ -4092,7 +4278,7 @@ font-size: 12px; padding: 8px 15px 8px 20px;width:100%;}
 .outer_box_4 {margin-top: 15px; float: right; width: 61%;}
 .top-right-nav .button_name{display: none;}
 .top-right-nav a{display:none}
-.top-right-nav{display:none}
+
 .top-nav { padding: 20px 20px 0 25px;  float: left;   width: 76%;}
 .setting_icon_mob_1{
   display: inline;
@@ -4101,6 +4287,12 @@ font-size: 12px; padding: 8px 15px 8px 20px;width:100%;}
 .setting_icon_mob_2{
   display: inline;
   margin-top: 7%;
+}
+.leftmobileversho img{
+  display: block;
+}
+.mobileversshow  img{
+  display: block;
 }
 
 #demos {margin:0px !important; padding: 30px 15px;}

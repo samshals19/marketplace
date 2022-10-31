@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function AddDetails1() {
+  const [isOpen, setIsOpen] = useState(true);
+  const [flag, setFlag] = useState(false);
+  // const toggle = () => setIsOpen(!isOpen);
+  const toggle = () => {
+    setFlag(!flag);
+    setIsOpen(!isOpen);
+  };
   return (
     <>
       <div className="contain_form">
@@ -25,7 +32,7 @@ export default function AddDetails1() {
               </p>
             </div>
             <div className="clear"></div>
-            <div className="chaintype">
+            <div className="chaintype clear">
               <div className="chosetypeimg fl-left">
                 <img src="/img/chosetypeimg.png" alt="" />
               </div>
@@ -33,22 +40,122 @@ export default function AddDetails1() {
                 <p>Binance Chain</p>
                 <span>Est. gas fee ~ $40</span>
               </div>
-
-              {/* <div className="fl-right downarrow">
-                <p class="sh">This is a paragraph.</p>
-
-                <button class="downdrop">
-                  Toggle between hide() and show()
+              <div className="fl-right droicon">
+                <button class="" onClick={toggle}>
+                  <img src="/img/DRopdown@.png" alt="" />
                 </button>
-              </div> */}
+              </div>
+              <div className="clear hr_inner">
+                <hr />
+              </div>
+
+              <div className="fl-left downarrow">
+                <div
+                  className="hidtaghere"
+                  style={{
+                    width: isOpen ? "0px" : "500px",
+                    display: isOpen ? "none" : "block",
+                  }}
+                >
+                  <div className="clear"></div>
+                  <div className="chaintype clear">
+                    <div className="chosetypeimg fl-left">
+                      <img src="/img/chosetypeimg.png" alt="" />
+                    </div>
+                    <div className="chosetypecontent fl-left">
+                      <p>Binance Chain</p>
+                      <span>Est. gas fee ~ $40</span>
+                    </div>
+                    <div className="fl-right">
+                      <div class="radio-item" id="radio_ite">
+                        <input
+                          type="radio"
+                          id="ritemb"
+                          name="ritem"
+                          value="ropt2"
+                        />
+                        <label for="ritemb" class="new"></label>
+                      </div>
+                    </div>
+                    <div className="newhidetag"></div>
+                  </div>
+                  <div className="clear"></div>
+                  <div className="chaintype clear">
+                    <div className="chosetypeimg fl-left">
+                      <img src="/img/ethereum.png" alt="" />
+                    </div>
+                    <div className="chosetypecontent fl-left">
+                      <p>Ethereum Chain</p>
+                      <span>Est. gas fee ~ $40</span>
+                    </div>
+                    <div className="fl-right">
+                      <div class="radio-item" id="radio_ite">
+                        <input
+                          type="radio"
+                          id="ritemb"
+                          name="ritem"
+                          value="ropt2"
+                        />
+                        <label for="ritemb" class="new"></label>
+                      </div>
+                    </div>
+                    <div className="newhidetag"></div>
+                  </div>
+                  <div className="clear"></div>
+                  <div className="chaintype clear">
+                    <div className="chosetypeimg fl-left">
+                      <img src="/img/solana.png" alt="" />
+                    </div>
+                    <div className="chosetypecontent fl-left">
+                      <p>Solana Chain</p>
+                      <span>Est. gas fee ~ $40</span>
+                    </div>
+                    <div className="fl-right">
+                      <div class="radio-item" id="radio_ite">
+                        <input
+                          type="radio"
+                          id="ritemb"
+                          name="ritem"
+                          value="ropt2"
+                        />
+                        <label for="ritemb" class="new"></label>
+                      </div>
+                    </div>
+                    <div className="newhidetag"></div>
+                  </div>
+                  <div className="clear"></div>
+                  <div className="chaintype clear">
+                    <div className="chosetypeimg fl-left">
+                      <img src="/img/polygon.png" alt="" />
+                    </div>
+                    <div className="chosetypecontent fl-left">
+                      <p>Polygon Chain</p>
+                      <span>Est. gas fee ~ $40</span>
+                    </div>
+                    <div className="fl-right">
+                      <div class="radio-item" id="radio_ite">
+                        <input
+                          type="radio"
+                          id="ritemb"
+                          name="ritem"
+                          value="ropt2"
+                        />
+                        <label for="ritemb" class="new"></label>
+                      </div>
+                    </div>
+                    <div className="newhidetag"></div>
+                  </div>
+                  <div className="clear"></div>
+                </div>
+              </div>
             </div>
-            <div className="clear"></div>
+
             <div class="Airdropinfo_right_title_block_1 form_app6 fl-left">
               <p>
                 Choose NFT Type <span>*</span>{" "}
               </p>
             </div>
-            <div className="chosenfttype " id="chosenftpy">
+            <div className="chosenfttype clear" id="chosenftpy">
               <div className="chosenfttypeimg1 fl-left">
                 <img src="/img/Muti3.png" alt="" />
               </div>
@@ -59,14 +166,14 @@ export default function AddDetails1() {
                 </span>
               </div>
               <div className="fl-right">
-                <div class="radio-item">
+                <div class="radio-item" id="radio_item">
                   <input type="radio" id="ritema" name="ritem" value="ropt2" />
                   <label for="ritema" class="new"></label>
                 </div>
               </div>
             </div>
             <div className="clear signmarbtm5"></div>
-            <div className="chosenfttype " id="chosenftpy">
+            <div className="chosenfttype clear" id="chosenftpy">
               <div className="chosenfttypeimg2 fl-left">
                 <img src="/img/Muti1.png" alt="" />
               </div>
@@ -78,14 +185,14 @@ export default function AddDetails1() {
                 </span>
               </div>
               <div className="fl-right">
-                <div class="radio-item">
+                <div class="radio-item" id="radio_item">
                   <input type="radio" id="ritemb" name="ritem" value="ropt2" />
                   <label for="ritemb" class="new"></label>
                 </div>
               </div>
             </div>
             <div className="clear signmarbtm5"></div>
-            <div className="chosenfttype " id="chosenftpy">
+            <div className="chosenfttype clear" id="chosenftpy">
               <div className="chosenfttypeimg3 fl-left">
                 <img src="/img/Muti2.png" alt="" />
               </div>
@@ -97,7 +204,7 @@ export default function AddDetails1() {
                 </span>
               </div>
               <div className="fl-right">
-                <div class="radio-item">
+                <div class="radio-item" id="radio_item">
                   <input type="radio" id="ritemc" name="ritem" value="ropt2" />
                   <label for="ritemc" class="new"></label>
                 </div>

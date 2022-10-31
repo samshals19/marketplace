@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 
 function SignUpInfo({ formData, setFormData }) {
+  const [isOpen, setIsOpen] = useState(true);
+  const [flag, setFlag] = useState(false);
+  // const toggle = () => setIsOpen(!isOpen);
+  const toggle = () => {
+    setFlag(!flag);
+    setIsOpen(!isOpen);
+  };
   return (
     <>
-      <div className="contain_form">
+      <div className="contain_form ">
         <div className="menu-left_all">
           <a href="" className="active_form">
             {" "}
@@ -72,6 +79,21 @@ function SignUpInfo({ formData, setFormData }) {
             <div className="section_set_1">
               <div className="inner_section_4_a fl-left">Total supply</div>
               <div className="inner_section_4_b fl-right">200,000,000 SXP</div>
+            </div>
+            <div className="fl-right downarrow">
+              <p
+                class=""
+                style={{
+                  width: isOpen ? "0px" : "270px",
+                  display: isOpen ? "none" : "block",
+                }}
+              >
+                This is a paragraph.
+              </p>
+
+              <button class="" onClick={toggle}>
+                Toggle between hide() and show()
+              </button>
             </div>
             <div className="clear app10_hr_pad">
               <hr />

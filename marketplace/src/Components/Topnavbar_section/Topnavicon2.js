@@ -4,6 +4,15 @@ export default function Topnavicon2() {
   return (
     <>
       <div className="top-right-nav">
+        <div className="fl-left mobileversshow">
+          <a href="" id="resmenushow">
+            <img src="/img/menushow.png" alt="" />
+          </a>
+          <a href="" id="headerlogo">
+            {" "}
+            <img src="/img/headerlogo.png" alt="" />
+          </a>
+        </div>
         <div class="topnav">
           <div class="search-container">
             <form action="/action_page.php">
@@ -30,6 +39,9 @@ export default function Topnavicon2() {
         <a href="" className="notification_icon">
           <img src="/images/newnotification-bing.png" />
         </a>
+        <div className="fl-right leftmobileversho">
+          <img src="/img/walletils.png" alt="" />
+        </div>
         {/* <a href="">
               <img src="assets/images/setting-2.png" />
             </a> */}

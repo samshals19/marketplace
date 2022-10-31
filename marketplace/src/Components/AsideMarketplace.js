@@ -50,18 +50,19 @@ export default function AsideMarketplace() {
           }}
         >
           <header>
-            <Link to="/LaunchpadPool/pools/Live">
+            <Link to="/">
               <div className="group_all">
                 <div className="image-text">
                   <span className="image">
-                    <img src="/images/newlogo.png" alt="" />
+                    <img src="/img/headerlogo.png" alt="" />
                   </span>
+                  {/* <p>Marketplace</p> */}
 
                   <div
                     className="text header-text"
                     style={{ display: isOpen ? "block" : "none" }}
                   >
-                    <img src="/images/newlogo_2.png" className="name" alt="" />
+                    {/* <img src="/images/newlogo_2.png" className="name" alt="" /> */}
                     {/* --> */}
                   </div>
                 </div>
