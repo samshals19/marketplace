@@ -6,28 +6,62 @@ export default function DiscListFormat() {
       <div className="dicsformatype">
         <div>
           <div class="box_sec_section_img1 fl-left">
-            <img src="/img/Component 1 (2).png" alt="" />
+            <img src="/img/disellips2.png" alt="" />
           </div>
-          <div class="box_section_name1 fl-left">
-            <span className="box_section_name_1_ft-16">WBNB/SLR</span>
+          <div class=" disclistamountnameouter fl-left">
+            <span className="disclistamountname">
+              Frontiers Nfts <img src="/img/vertagdis.png" alt="" />
+            </span>
           </div>
-          <div class="box_section_name2 fl-left">
+          <div class="disclistamountnameouter2 fl-left">
             <span className="box_section_amount_1">
-              Amount
+              Floor price
               <img src="/img/Ques.png" alt="" />
             </span>
             <br />
-            <span className="box_section_amount_2">1,000,454</span>
+            <span className="box_section_amount_2">
+              {" "}
+              <img src="/img/distherlogo.png" alt="" /> 147.044
+            </span>
           </div>
           <div class="box_section_img2 fl-right">
+            <span>View</span>
+
             <img src="/img/arrow-left.png" alt="" />
           </div>
-          <div class="box_section_name3 fl-right">
+          <div class="disclistamountnameouter3 fl-left">
             <span className="box_section_unlocks_1">
-              Unlocks on <img src="/img/Ques.png" alt="" />
+              Volume <img src="/img/Ques.png" alt="" />
             </span>
             <br />
-            <span className="box_section_unlocks_2">2022-09-08</span>
+            <span className="box_section_unlocks_2">
+              {" "}
+              <img src="/img/distherlogo.png" alt="" />
+              250,000
+            </span>
+          </div>
+          <div class="disclistamountnameouter3 fl-left">
+            <span className="box_section_unlocks_1">
+              Change 24h
+              <img src="/img/Ques.png" alt="" />
+            </span>
+            <br />
+            <span className="box_section_unlocks_2">
+              {" "}
+              <img src="/img/upoly.png" alt="" />
+              +100
+            </span>
+          </div>
+          <div class="disclistamountnameouter3 fl-left">
+            <span className="box_section_unlocks_1">
+              Volume <img src="/img/Ques.png" alt="" />
+            </span>
+            <br />
+            <span className="box_section_unlocks_2">
+              {" "}
+              <img src="/img/distherlogo.png" alt="" />
+              250,000
+            </span>
           </div>
         </div>
       </div>

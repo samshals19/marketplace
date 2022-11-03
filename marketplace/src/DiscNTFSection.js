@@ -1,14 +1,9 @@
 import React from "react";
-
 import Aside from "./Components/AsideMarketplace";
 import Slider from "./Components/Slider";
 import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
 import Live_end_upcom from "./Components/LiveONEndUpcom";
 import Sort_by from "./Components/Sort_by";
-import My_Pools from "./Components/My_Pools";
-import Search_sec from "./Components/Search_sec";
-import TopNavAllThree from "./Components/Topnavbar_section/TopNavAllThree";
-import LaunchpadPoolsBox from "./Components/Box_section/LaunchpadPoolsBox";
 import { Link } from "react-router-dom";
 import Box2 from "./Components/Box_section/Box2";
 import DiscoverBox from "./Components/Box_section/DiscoverBox";
@@ -16,9 +11,14 @@ import MarketBothIcon from "./Components/MarketBothIcon";
 import AllCate from "./Components/AllCate";
 import FloorPrice from "./Components/FloorPrice";
 import Allcoin from "./Components/Allcoin";
+import DiscListFormat from "./Components/Box_section/DiscListFormat";
+import DiscFormatBox from "./DiscFormatBox";
+import NftsNormal from "./Components/Box_section/NftsNormal";
+import NftsSmaller from "./Components/Box_section/NftsSmaller";
+import Tabs from "./Tabs";
 import Discovernft from "./Components/Discovernft";
 
-export default function DiscFormatBox() {
+export default function DiscNTFSection() {
   return (
     <div>
       {/* content1 */}
@@ -36,18 +36,7 @@ export default function DiscFormatBox() {
         <div className="clear"></div>
 
         {/* content */}
-        <div className="fl-container">
-          {/* <div className="outer_box_1  fl-left" id="outer_box_1_moble">
-            <Live_end_upcom />
-          </div>
-          <div className="outer_box_2 fl-left " id="outer_box_2_moble">
-            <My_Pools />
-          </div>
-          <Sort_by />
-          <div className="outer_box_4 fl-right">
-            <Search_sec />
-          </div> */}
-        </div>
+        <div className="fl-container"></div>
         <div className="discovermiddlecontent">
           <div className="disbox1">
             <MarketBothIcon />
@@ -67,13 +56,7 @@ export default function DiscFormatBox() {
         </div>
 
         <div className="outer_box">
-          <DiscoverBox />
-          <DiscoverBox />
-          <DiscoverBox />
-          <DiscoverBox />
-          <DiscoverBox />
-          <DiscoverBox />
-          <Box2 />
+          <Tabs />
         </div>
       </div>
     </div>

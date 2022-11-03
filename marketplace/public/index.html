@@ -59,7 +59,7 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <script>
       $(document).ready(function () {
@@ -67,33 +67,15 @@
           $("p").hide();
         });
       });
-    </script>
+    </script> -->
 
-    <script>
+    <!-- <script>
       $(document).ready(function () {
         $(".downdrop1").click(function () {
           $("p").show();
         });
       });
-    </script>
-
-    <script>
-      $(document).ready(function () {
-        $(".downarrow").on("click", function () {
-          $(".inner_form_seting .label").removeClass("lappadpoolactive");
-          $(this).addClass("lappadpoolactive");
-        });
-      });
-    </script>
-
-    <script>
-      $(document).ready(function () {
-        $(".inner_form_seting .label").on("click", function () {
-          $(".inner_form_seting .label").removeClass("lappadpoolactive");
-          $(this).addClass("lappadpoolactive");
-        });
-      });
-    </script>
+    </script> -->
     <script>
       $(document).ready(function () {
         $(".owl-carousel").owlCarousel({
@@ -116,6 +98,24 @@
               margin: 10,
             },
           },
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $(".downarrow").on("click", function () {
+          $(".inner_form_seting .label").removeClass("lappadpoolactive");
+          $(this).addClass("lappadpoolactive");
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $(".inner_form_seting .label").on("click", function () {
+          $(".inner_form_seting .label").removeClass("lappadpoolactive");
+          $(this).addClass("lappadpoolactive");
         });
       });
     </script>

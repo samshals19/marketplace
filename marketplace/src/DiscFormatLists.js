@@ -5,10 +5,6 @@ import Slider from "./Components/Slider";
 import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
 import Live_end_upcom from "./Components/LiveONEndUpcom";
 import Sort_by from "./Components/Sort_by";
-import My_Pools from "./Components/My_Pools";
-import Search_sec from "./Components/Search_sec";
-import TopNavAllThree from "./Components/Topnavbar_section/TopNavAllThree";
-import LaunchpadPoolsBox from "./Components/Box_section/LaunchpadPoolsBox";
 import { Link } from "react-router-dom";
 import Box2 from "./Components/Box_section/Box2";
 import DiscoverBox from "./Components/Box_section/DiscoverBox";
@@ -17,6 +13,7 @@ import AllCate from "./Components/AllCate";
 import FloorPrice from "./Components/FloorPrice";
 import Allcoin from "./Components/Allcoin";
 import DiscListFormat from "./Components/Box_section/DiscListFormat";
+import Discovernft from "./Components/Discovernft";
 
 export default function DiscFormatLists() {
   return (
@@ -29,7 +26,8 @@ export default function DiscFormatLists() {
         <div className="clear"></div>
         {/* content1 slider */}
 
-        {/* <Slider /> */}
+        <Slider />
+        <Discovernft />
 
         {/* content1 slider */}
         <div className="clear"></div>
@@ -66,39 +64,11 @@ export default function DiscFormatLists() {
         </div>
 
         <div className="outer_box">
-          {/* box1 */}
-          {/* <Link to="/LaunchpadPool/pools/Live/launchpoolbox">
-          <LaunchpadPoolsBox
-            coinlogo="/img/RIP_logo (1).png"
-            coinname="Swipe Coin"
-            subtitle1="Payment"
-            subtitle2="Web3"
-            percent="25"
-            capimg="/img/RIP.png"
-            capamt="240,000"
-            midtitle1="120,000 RBA"
-            midtitle2="240,000 RBA"
-            nodays="140 Days"
-          />
-        </Link> */}
-          {/* <Box2 /> */}
-
-          {/* box2 */}
-          {/* <Link to="/LaunchpadPool/pools/Live/Launchpadpool2">
-          <LaunchpadPoolsBox
-            coinlogo="/img/RIP_logo(6).png"
-            coinname="Venus"
-            subtitle1="DEFI"
-            subtitle2="DEX"
-            percent="80"
-            capimg="/img/RIP (1).png"
-            capamt="14,000"
-            midtitle1="10,000 BNB"
-            midtitle2="14,000 BNB"
-            nodays="110 Days"
-          />
-        </Link> */}
-
+          <DiscListFormat />
+          <DiscListFormat />
+          <DiscListFormat />
+          <DiscListFormat />
+          <DiscListFormat />
           <DiscListFormat />
         </div>
       </div>
