@@ -8,6 +8,7 @@ import DiscNFTNormal from "./DiscNFTNormal";
 import DiscNFTSmaller from "./DiscNFTSmaller";
 import Tabs from "./Tabs";
 import DiscNTFSection from "./DiscNTFSection";
+import DiscEachCollectionPages from "./DiscEachCollectionPages";
 
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
@@ -21,7 +22,8 @@ function App() {
           {/* <Route path="/" element={<DiscFormatLists />} /> */}
           {/* <Route path="/" element={<DiscNFTNormal />} /> */}
           {/* <Route path="/" element={<DiscNFTSmaller />} /> */}
-          <Route path="/" element={<DiscNTFSection />} />
+          {/* <Route path="/" element={<DiscNTFSection />} /> */}
+          <Route path="/" element={<DiscEachCollectionPages />} />
         </Routes>
       </div>
     </>
