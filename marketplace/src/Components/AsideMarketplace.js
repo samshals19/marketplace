@@ -139,7 +139,7 @@ export default function AsideMarketplace() {
                       class="sidebar_contain_aside"
                       style={{ display: isOpen ? "block" : "none" }}
                     >
-                      <Link to="/LaunchpadPool/pools/Live" className="active1">
+                      <Link to="/Discover" className="active1">
                         Discover
                       </Link>
 

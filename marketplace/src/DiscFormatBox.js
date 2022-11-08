@@ -10,7 +10,7 @@ import Search_sec from "./Components/Search_sec";
 import TopNavAllThree from "./Components/Topnavbar_section/TopNavAllThree";
 import LaunchpadPoolsBox from "./Components/Box_section/LaunchpadPoolsBox";
 import { Link } from "react-router-dom";
-import Box2 from "./Components/Box_section/Box2";
+
 import DiscoverBox from "./Components/Box_section/DiscoverBox";
 import MarketBothIcon from "./Components/MarketBothIcon";
 import AllCate from "./Components/AllCate";
@@ -73,7 +73,6 @@ export default function DiscFormatBox() {
           <DiscoverBox />
           <DiscoverBox />
           <DiscoverBox />
-          <Box2 />
         </div>
       </div>
     </div>

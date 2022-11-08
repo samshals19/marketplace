@@ -6,7 +6,7 @@ import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
 import Live_end_upcom from "./Components/LiveONEndUpcom";
 import Sort_by from "./Components/Sort_by";
 import { Link } from "react-router-dom";
-import Box2 from "./Components/Box_section/Box2";
+
 import DiscoverBox from "./Components/Box_section/DiscoverBox";
 import MarketBothIcon from "./Components/MarketBothIcon";
 import AllCate from "./Components/AllCate";

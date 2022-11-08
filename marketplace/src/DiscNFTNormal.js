@@ -6,8 +6,7 @@ import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
 import Live_end_upcom from "./Components/LiveONEndUpcom";
 import Sort_by from "./Components/Sort_by";
 import { Link } from "react-router-dom";
-import Box2 from "./Components/Box_section/Box2";
-import DiscoverBox from "./Components/Box_section/DiscoverBox";
+
 import MarketBothIcon from "./Components/MarketBothIcon";
 import AllCate from "./Components/AllCate";
 import FloorPrice from "./Components/FloorPrice";
@@ -55,61 +54,77 @@ export default function DiscNFTNormal() {
         </div>
 
         <div className="outer_box">
-          <NftsNormal
-            img="/img/Nftslogo1.png"
-            contentp="ArbowMan #475"
-            lastprice="Listed Price"
-            imglogo="/img/vertagdis.png"
-            nameconten="ArborSwap NFTs"
-            coinimg="/img/coinlogo1.png"
-            coinamt="44.014"
-          />
-          <NftsNormal
-            img="/img/Nftslogo2.png"
-            contentp="Backbone #475"
-            lastprice="Listed Price"
-            imglogo="/img/vertagdis.png"
-            nameconten="Frontier NFTs"
-            coinimg="/img/solana.png"
-            coinamt="17,479"
-          />
-          <NftsNormal
-            img="/img/Nftslogo3.png"
-            contentp="ArbowMan #475"
-            lastprice="Listed Price"
-            imglogo="/img/vertagdis.png"
-            nameconten="ArborSwap NFTs"
-            coinimg="/img/ethereum.png"
-            coinamt="1,079"
-          />
+          <Link to="/NftEachpage">
+            <NftsNormal
+              img="/img/Nftslogo1.png"
+              contentp="ArbowMan #475"
+              lastprice="Listed Price"
+              imglogo="/img/vertagdis.png"
+              nameconten="ArborSwap NFTs"
+              coinimg="/img/coinlogo1.png"
+              coinamt="44.014"
+            />
+          </Link>
 
-          <NftsNormal
-            img="/img/Nftslogo1.png"
-            contentp="ArbowMan #475"
-            lastprice="Listed Price"
-            imglogo="/img/vertagdis.png"
-            nameconten="ArborSwap NFTs"
-            coinimg="/img/coinlogo1.png"
-            coinamt="44.014"
-          />
-          <NftsNormal
-            img="/img/Nftslogo2.png"
-            contentp="Backbone #475"
-            lastprice="Listed Price"
-            imglogo="/img/vertagdis.png"
-            nameconten="Frontier NFTs"
-            coinimg="/img/solana.png"
-            coinamt="17,479"
-          />
-          <NftsNormal
-            img="/img/Nftslogo3.png"
-            contentp="ArbowMan #475"
-            lastprice="Listed Price"
-            imglogo="/img/vertagdis.png"
-            nameconten="ArborSwap NFTs"
-            coinimg="/img/ethereum.png"
-            coinamt="1,079"
-          />
+          <Link to="/NftEachpage">
+            <NftsNormal
+              img="/img/Nftslogo2.png"
+              contentp="Backbone #475"
+              lastprice="Listed Price"
+              imglogo="/img/vertagdis.png"
+              nameconten="Frontier NFTs"
+              coinimg="/img/solana.png"
+              coinamt="17,479"
+            />
+          </Link>
+
+          <Link to="/NftEachpage">
+            <NftsNormal
+              img="/img/Nftslogo3.png"
+              contentp="ArbowMan #475"
+              lastprice="Listed Price"
+              imglogo="/img/vertagdis.png"
+              nameconten="ArborSwap NFTs"
+              coinimg="/img/ethereum.png"
+              coinamt="1,079"
+            />
+          </Link>
+
+          <Link to="/NftEachpage">
+            <NftsNormal
+              img="/img/Nftslogo1.png"
+              contentp="ArbowMan #475"
+              lastprice="Listed Price"
+              imglogo="/img/vertagdis.png"
+              nameconten="ArborSwap NFTs"
+              coinimg="/img/coinlogo1.png"
+              coinamt="44.014"
+            />
+          </Link>
+
+          <Link to="/NftEachpage">
+            <NftsNormal
+              img="/img/Nftslogo2.png"
+              contentp="Backbone #475"
+              lastprice="Listed Price"
+              imglogo="/img/vertagdis.png"
+              nameconten="Frontier NFTs"
+              coinimg="/img/solana.png"
+              coinamt="17,479"
+            />
+          </Link>
+
+          <Link to="/NftEachpage">
+            <NftsNormal
+              img="/img/Nftslogo3.png"
+              contentp="ArbowMan #475"
+              lastprice="Listed Price"
+              imglogo="/img/vertagdis.png"
+              nameconten="ArborSwap NFTs"
+              coinimg="/img/ethereum.png"
+              coinamt="1,079"
+            />
+          </Link>
         </div>
       </div>
     </div>

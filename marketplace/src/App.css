@@ -1052,13 +1052,77 @@ letter-spacing: 0.02em;
 
 color: #A69F9F;
 }
+.myproinnleft{
+  width: 56%;
+}
+/*  */
+.userproedit
+{
+  padding: 10px;
+  background: #FFFFFF;
+border-radius: 6px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+
+
+letter-spacing: 0.02em;
+
+/* Light/Text/Semi */
+
+color: #807373;
+
+}
+.userproexport img,
+.userpro3dots img{
+  width: 40px;
+}
+.userproedit img
+{
+  width: 20px;
+}
+.myproinner p{ 
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+
+
+letter-spacing: 0.02em;
+
+/* Light/Text/Dimmed */
+
+color: #A69F9F;
+}
 .discEachpagesmiddleset{
   text-align: center;
+}
+.mypromrpd{
+  width: 94%;
 }
 .discEachpagesmiddleset p img{
   width: 18px;
 }
+.myprow20px img{
+  width: 20px;
+}
+/* .discEachpagesmiddleset  img{
+  width: 18px;
+} */
 .discEachpagesmiddleset p{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+
+letter-spacing: 0.04em;
+
+/* Light/Text/Normal */
+
+color: #464754;
+}
+.discEachpagesmiddleset{
   font-family: 'Gilroy';
 font-style: normal;
 font-weight: 500;

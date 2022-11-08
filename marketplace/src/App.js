@@ -9,6 +9,7 @@ import DiscNFTSmaller from "./DiscNFTSmaller";
 import Tabs from "./Tabs";
 import DiscNTFSection from "./DiscNTFSection";
 import DiscEachCollectionPages from "./DiscEachCollectionPages";
+import UserProMyPro from "./UserProMyProfile";
 
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
@@ -20,10 +21,14 @@ function App() {
           {/* <Route path="/" element={<UserProSettings />} /> */}
           {/* <Route path="/" element={<DiscFormatBox />} /> */}
           {/* <Route path="/" element={<DiscFormatLists />} /> */}
-          {/* <Route path="/" element={<DiscNFTNormal />} /> */}
+          <Route path="/" element={<DiscNFTNormal />} />
           {/* <Route path="/" element={<DiscNFTSmaller />} /> */}
           {/* <Route path="/" element={<DiscNTFSection />} /> */}
-          <Route path="/" element={<DiscEachCollectionPages />} />
+          {/* <Route
+            path="/"
+            element={<DiscEachCollectionPages />}
+          /> */}
+          {/* <Route path="/" element={<UserProMyPro />} /> */}
         </Routes>
       </div>
     </>
